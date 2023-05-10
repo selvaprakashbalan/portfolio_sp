@@ -9,6 +9,13 @@ body{
   padding: 50px 0;
   color: rgba(0,255,255,0.7);
 }
+.title1{
+  font-family: 'Castoro Titling', cursive;
+  font-size: bold;
+  text-align: center;
+  padding: 50px 0;
+  color: black;
+}
 /* *****Nav-Bar***** */
 .nav-bar{
     background-color: grey;
@@ -170,6 +177,10 @@ body{
   color: rgba(0,255,255,0.7) ; 
 }
 /* *****Skills***** */
+.skills{
+  height: 300px;
+  background-color: #F6F6F6;
+}
 .skills_main{
   display: flex;
   justify-content: space-evenly;
@@ -210,7 +221,73 @@ body{
   display: flex;
   justify-content: center;
 }
-
+/* *****Contact***** */
+.con_container{
+  padding-top: 10px;
+  width: 50%;
+}
+.contact{
+  background-image: url("./image/20513010.jpg");
+  background-attachment: fixed;
+  height: 680px;
+}
+.con_main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
+  transform: translateY(-5px);
+}
+.con_img{
+  background-image: url("./image/how-to-fix-the-unknown-message-not-found-on-iphone-error-849e332f4e9241db9cb80ef9ddb63e01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius:16px 0px 0px 16px;
+}
+.con_form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 25px;
+    color: white;
+}
+.con_form input{
+    border-radius: 10px;
+}
+.con_form textarea{
+  border-radius: 10px;
+}
+.sub{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+/* *****Footer***** */
+.footer1{
+    background-color: gray;
+}
+.foo_main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foo_para{
+  display: flex;
+  column-gap: 30px;
+  padding-top: 10px;
+}
+.foo_icon{
+  display: flex;
+  column-gap: 30px;
+}
+.icon{
+  color: white;
+}
+.icon:hover{
+  color: rgba(0,255,255,0.7) ;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -310,8 +387,7 @@ body{
   row-gap: 60px;
 }
 /* *****Certificate***** */
-.Certificate{
-}
+
 
     
   }
@@ -322,13 +398,16 @@ body{
   */
   
 @media (min-width: 320px) and (max-width: 480px) {
+ html{
+  overflow-x: hidden;
+ } 
 /* *****Nav-bar***** */
 .logo{
    font-size: 30px;
 }
-.nav-bar{
+/* .nav-bar{
   width: 320px;
-}
+} */
 /* *****Main-page***** */
 .pro{
   height: 580px;
@@ -347,7 +426,7 @@ body{
 .pro_img{
   order: 1;
   border-radius: 16px 16px 0px 0px;
-  width: 256px;
+  width: 272px;
   height: 195px;
 }
 .pro_content{
@@ -383,6 +462,9 @@ body{
   width: 250px;
 }
 /* *****Skills***** */
+.skills{
+  height: 740px;
+}
 .skills_main{
    flex-direction: column;
     align-items: center;
@@ -390,6 +472,26 @@ body{
 }
 .circle{
   width: 60%;
+}
+/* *****content***** */
+.contact{
+  height: 870px;
+}
+.con_container{
+  width: fit-content;
+}
+.con_main{
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+}
+.con_img{
+  border-radius: 16px 16px 0px 0px;
+  height: 200px;
+  width: inherit;
+}
+.con_form{
+  align-items: center;
 }
 
     

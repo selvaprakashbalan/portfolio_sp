@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav"> 
                    <li class="nav-item">
-                    <a class="nav-link active nav_link" aria-current="page" href="#portfolio">Home</a>
+                    <a class="nav-link active nav_link" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link active nav_link" aria-current="page" href="#academic">Academic</a>
@@ -38,7 +38,10 @@
                      <a class="nav-link active nav_link" aria-current="page" href="#project">Projects</a>
                   </li>  
                   <li class="nav-item">
-                     <a class="nav-link active nav_link" aria-current="page" href="#technical">Skills</a>
+                    <a class="nav-link active nav_link" aria-current="page" href="#certificate">Certificate</a>
+                 </li>  
+                  <li class="nav-item">
+                     <a class="nav-link active nav_link" aria-current="page" href="#skills">Skills</a>
                  </li>
                  <li class="nav-item">
                    <a class="nav-link active nav_link" aria-current="page" href="#contact">Contact</a>
@@ -48,7 +51,7 @@
         </div>
      </nav>
      <!-- *****Main-page***** -->
-     <section class="portfolio">
+     <section class="portfolio" id="home">
          <div class="container pro_container">
              <div class="row pro">
                  <div data-aos="fade-right" data-aos-duration="1000" class="col-6 pro_content">
@@ -63,17 +66,11 @@
                    </div>
                    <div data-aos="fade-left" data-aos-duration="1000" class="col-6 pro_img"> </div>
                </div>
-               <!-- <div class="row icon">
-               <div class="pro_icon">
-                 <a><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                 <a><i class="fa-brands fa-square-github fa-2x"></i></a>
-                 <a><i class="fa-brands fa-square-twitter fa-2x"></i></a>
-              </div>
-           </div> -->
+           </div>
      </section>
      <!-- *****Academic Profile***** -->
-     <section class="academic">
-        <h2 class="title">Academic Profile</h4>
+     <section class="academic" id="academic">
+        <h2 class="title1">Academic Profile</h4>
             <div class="row  aca_main">
                 <div data-aos="fade-up" data-aos-duration="1000" class="col-3 aca_content">
                  <h4>2022</h4>
@@ -99,35 +96,35 @@
             </div>
      </section>
      <!-- *****project***** -->
-     <section class="project">
+     <section class="project" id="project">
       <h2 class="title">Projects</h4>
       <div class="project_content">
       <div data-aos="flip-left" data-aos-duration="1000" class="project1">
         <img src="./image/hos.png" alt="">
         <h4>Hospital Appointment Boooking System</h4>
-        <a href=""><i class="fa-sharp fa-light fa-plus fa-3x add"></i></a>
+        <a href="" target="_blank"><i class="fa-sharp fa-light fa-plus fa-3x add"></i></a>
       </div>
       <div data-aos="flip-right" data-aos-duration="1000" class="project2">
         <img src="./image/pla.webp" alt="">
         <h4>Plant Disease identification using Deep Learning</h4>
-        <a href=""><i class="fa-sharp fa-light fa-plus fa-3x add"></i></a>
+        <a href="" target="_blank"><i class="fa-sharp fa-light fa-plus fa-3x add"></i></a>
      </div>
      </div>
      </section>
      <!-- *****Certificate***** -->
-     <section class="Certificate">
-      <h2 class="title">Certification</h2>
+     <section class="Certificate" id="certificate">
+      <h2 class="title1">Certification</h2>
       <div class="cert_content">
         <ul>
-         <li><a href="./SELVA-PRAKASH-B-Participant-Certificate (3).pdf"><i class="fa-solid fa-file-circle-check fa-2x cert_icon"></i></a><p class="cert_para">Certificate on completion of C from IIT Bombay.</p></Certificate></li>
-         <li><a href="./Selva Prakash B_Post Graduate Diploma in Clinical Database Build and Clinical Data Management.pdf"><i class="fa-solid fa-file-circle-check fa-2x cert_icon"></i></a><p class="cert_para">Certificate on completion of Clinical Data Management from Veranex,Bangalore.</p></li>
+         <li><a href="./SELVA-PRAKASH-B-Participant-Certificate (3).pdf" target="_blank"><i class="fa-solid fa-file-circle-check fa-2x cert_icon"></i></a><p class="cert_para">Certificate on completion of C from IIT Bombay.</p></Certificate></li>
+         <li><a href="./Selva Prakash B_Post Graduate Diploma in Clinical Database Build and Clinical Data Management.pdf" target="_blank"><i class="fa-solid fa-file-circle-check fa-2x cert_icon"></i></a><p class="cert_para">Certificate on completion of Clinical Data Management from Veranex,Bangalore.</p></li>
         </ul>
       </div>
 
      </section>
      <!-- *****Skills***** -->
-     <section class="skills">
-      <h2 class="title">Skills</h2>
+     <section class="skills" id="skills">
+      <h2 class="title1">Skills</h2>
       <div class="skills_main">
         <div class="circle"><i class="fa-brands fa-html5 fa-2x html"></i><p>HTML</p></div>
         <div class="circle"><i class="fa-brands fa-css3-alt fa-2x css"></i><p>CSS</p></div>
@@ -138,9 +135,44 @@
 
      </section>
      <!-- *****Contact***** -->
-     <section>
+     <section class="contact" id="contact">
+      <h2 class="title">Contact</h2>
+      <div class="container con_container">
+          <div class="row con_main">
+              <div class="col-6 con_img">
+                  
+                </div>
+                <div class="col-6"> 
+                  <form class="con_form">
+                    <label>Name :</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label>Email :</label>
+                    <input type="text" id="email" name="email" placeholder="email@.com">
+                    <label>Message :</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                    <div class="page-but1 sub">
+                      <button type="button" class="btn btn-outline-info">Submit</button>
+                   </div>
+                </form>
+                </div>
+            </div>
+        </div>
+  </section>
+     <!-- *****Footer***** -->
+     <footer class="footer1">
+      <div class="foo_main">
+        <div class="foo_para">
+          <p>Download my resume <a href="./Resume_SP" target="_blank"><i class="fa-solid fa-file-arrow-down fa-2x icon"></i></a></p>
+        </div>
+        <div class="foo_icon">
+          <a href="https://www.linkedin.com/in/selvaprakash-b-022849211" target="_blank"><i class="fa-brands fa-linkedin fa-2x icon"></i></a>
+          <a href="https://github.com/selvaprakashbalan" target="_blank"><i class="fa-brands fa-square-github fa-2x icon"></i></a>
+          <a href="https://twitter.com/Selvaprakashb?t=FhlyrwXUKf4tfwUqULcRUA&s=09" target="_blank"><i class="fa-brands fa-square-twitter fa-2x icon"></i></a>
+        </div>
 
-     </section>
+      </div>
+
+     </footer>
     <!-- *****AOS***** -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
