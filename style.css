@@ -1,3 +1,6 @@
+@keyframes example {
+  50%   {color:rgba(0,255,255,0.7);}
+}
 body{
   font-family: 'Yantramanav', sans-serif;
   font-size: 18px;
@@ -38,6 +41,10 @@ body{
 .logo{
   font-family: 'Caveat', cursive;
   font-size: 35px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 /* *****Main-page***** */
 .portfolio{
@@ -118,6 +125,7 @@ body{
 /* *****project***** */
 .project{
   background-image: url("./image/20513010.jpg");
+  background-attachment: fixed;
   height: 630px;
 }
 .project_content{
@@ -387,6 +395,18 @@ body{
   row-gap: 60px;
 }
 /* *****Certificate***** */
+/* *****Skills***** */
+.circle{
+  width: 18%;
+}
+/* *****content***** */
+.con_container{
+  width: 70%;
+}
+.con_img{
+  background-color: #4fc7e2;
+  background-size: 460px;
+}
 
 
     
@@ -410,7 +430,7 @@ body{
 } */
 /* *****Main-page***** */
 .pro{
-  height: 580px;
+  height: 600px;
 }
 .portfolio{
   height: 780px;
@@ -426,8 +446,8 @@ body{
 .pro_img{
   order: 1;
   border-radius: 16px 16px 0px 0px;
-  width: 272px;
-  height: 195px;
+  height: 200px;
+  width: -webkit-fill-available;
 }
 .pro_content{
   text-align: center;
@@ -493,6 +513,9 @@ body{
 .con_form{
   align-items: center;
 }
-
+/* *****Footer***** */
+.foo_icon{
+  column-gap: 5px;
+}
     
   }
