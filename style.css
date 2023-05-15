@@ -436,6 +436,7 @@ body{
 }
 .portfolio{
   height: 780px;
+  width: 367px;
 }
 .pro_container {
   padding-top: 110px;
@@ -457,6 +458,7 @@ body{
 /* *****Academic Profile***** */
 .academic{
   height: 1070px;
+  width: 367px;
 }
 .aca_main{
   flex-direction: column;
@@ -471,6 +473,7 @@ body{
 /* *****project***** */
 .project{
   height: 1070px;
+  width: 367px;
 }
 .project_content{
   align-items: center;
@@ -486,6 +489,7 @@ body{
 /* *****Skills***** */
 .skills{
   height: 740px;
+  width: 367px;
 }
 .skills_main{
    flex-direction: column;
@@ -498,6 +502,7 @@ body{
 /* *****content***** */
 .contact{
   height: 870px;
+  width: 367px;
 }
 .con_container{
   width: fit-content;
@@ -516,6 +521,9 @@ body{
   align-items: center;
 }
 /* *****Footer***** */
+.footer1{
+  width: 367px;
+}
 .foo_icon{
   column-gap: 5px;
 }
