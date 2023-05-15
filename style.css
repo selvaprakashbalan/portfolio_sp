@@ -1,6 +1,9 @@
 @keyframes example {
   50%   {color:rgba(0,255,255,0.7);}
 }
+html{
+  overflow-x: hidden;
+}
 body{
   font-family: 'Yantramanav', sans-serif;
   font-size: 18px;
